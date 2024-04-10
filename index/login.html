@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  />
+</head>
+<body>
+    <header>
+        <div class="line-header">
+            <div class="logo-header">
+                <a href="">
+                        <img class="img-logo" src="../image/logo.png" alt="">
+                        <h2 class="name-logo">Language Test</h2>
+                </a>
+            </div>
+            <!-- logo -->
+        </div>
+    </header>
+    <!-- THE END HEADER============================================================================== -->
+    <div class="content">
+        <div class="outline-content">
+            <div  class="in-content" id="formloginall">
+                <div class="name-title">
+                    <h2>Student - Log in to your account</h2>
+                </div>
+                <form onsubmit="login()" class="form-login"  id="formlogin">
+                    <div class="ten">
+                        <span>Tên đăng nhập</span><br><input id="username" type="text" placeholder="Username">
+                    </div>
+                    <div class="matkhau">
+                        <span>Mật khẩu đăng nhập</span><br><input id="password" type="password" placeholder="Password">
+                        
+                        
+                    </div>
+                    <div class="email">
+                        <span>Nhập Email</span><br><input id="email" type="email" placeholder="Email">
+                    </div>
+                    <div class="back-signup" ><a href="../index/signup.html">Đăng ký</a></div>
+                    <div class="btn-login"   >
+                        <button onclick="return checkform()" id="checkform">Đăng Nhập</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script/main.js"></script>
+    <script src="../script/account.js"></script>
+</body>
+</html>

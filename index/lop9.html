@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauguage Test</title>
+    <link rel="stylesheet" href="../css/lop9.css">
+</head>
+<body>
+    <header>
+        <div class="line-header">
+            <div class="logo-header">
+                <a href="../index/main.html">
+                        <img class="img-logo" src="../image/logo.png" alt="">
+                        <h2 class="name-logo">Language Test</h2>
+                </a>
+            </div>
+            <!-- logo -->
+            <div class="account-header">
+                <div class="account-user">
+                    <a href="#" >
+                    <img src="../image/account.svg" alt="">
+                    </a>
+                </div>
+                <div class="account-inf">
+                    <a href="">
+                    <img src="../image/thongbao.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- THE END HEADER============================================================================== -->
+    <div class="container">
+        <!--  -->
+        <div class="accept-logout" id="showlogout">
+            <div class="table-logout">
+                    <span>Bạn có muốn đăng xuất không?</span><br>
+                    <div class="btn-accept">
+                    <button id="co" onclick="co()">Có</button>
+                    <button id="huy" onclick="huy()">Hủy</button>
+                    </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="in-container" >
+            <!--  -->
+            <div class="left-in-container">
+                <!--  -->
+                <div class="main-account">
+                        <!--  -->
+                    <a href="">
+                        <!--  -->
+                        <div class="account-user">
+                            <img src="../image/account.svg" alt="">
+                        </div>
+                        <!--  -->
+                        <div class="name-account">
+                            <h3>User</h3>
+                        </div>
+                    </a>
+                </div>
+                    <!--  -->
+                    <div class="menu-left-container">
+                        <!--  -->
+                        <div class="classes-left-container">
+                            <a href="#" onclick="show()">
+                                <div class="up-lasses-left-container">
+                                    <img src="../image/book.svg" alt="">
+                                </div>
+                                <!--  -->
+                                <div class="down-lasses-left-container">
+                                    <span>Classes</span>
+                                </div>
+                            </a>
+                        </div>
+                        <!--  -->
+                        <div class="assignment-left">
+                            <a href="">
+                                <div class="up-assignment-left">
+                                    <img src="../image/assigment.svg" alt="">
+                                </div>
+                                <!--  -->
+                                <div class="down-assignment-left">
+                                    <span>Assignments</span>
+                                </div>
+                            </a>
+                        </div>
+                        <!--  -->
+                        <div class="thongbao-left">
+                            <a href="">
+                                <div class="up-thongbao-left">
+                                    <img src="../image/thongbao.svg" alt="">
+                                </div>
+                                <!--  -->
+                                <div class="down-thongbao-left">
+                                    <span>Notifications</span>
+                                </div>
+                            </a>
+                        </div>
+                        <!--  -->
+                        <div class="notices-left">
+                            <a href="">
+                            <div class="up-notices-left">
+                               <img src="../image/notepad.svg" alt="">
+                            </div>
+                            <!--  -->
+                            <div class="down-notices-left">
+                                <span>Notices</span>
+                            </div>
+                            </a>
+                        </div>
+                        <!--  -->
+                        <div class="my-profile">
+                            <a href="">
+                            <div class="up-my-profile">
+                                <img src="../image/account.svg" alt="">
+                            </div>
+                            <!--  -->
+                            <div class="down-my-profile">
+                                <span>My Profile</span>
+                            </div>
+                            </a>
+                        </div>
+                        <!--  -->
+                            <div class="log-out" onclick="logout()">
+                                <a href="#">
+                                <div class="up-log-out">
+                                    <img src="../image/log out.svg" alt="">
+                                </div>
+                                <!--  -->
+                                <div class="down-log-out">
+                                    <span>Log out</span>
+                                </div>
+                                </a>
+                            </div>
+                        <!--  -->
+                    </div>
+                    <!--  -->
+            </div>
+            <!-- The end left -->
+            <!--  -->
+            <div class="right-in-container">
+                <!--  -->
+                    <div class="content" id="showanswer">
+                        <!--  -->
+                            <div class="all-content">
+                                <div class="in-content" >
+                                    <!--  -->
+                                    <div id="loigiai1">
+                                        <h3>Loại: <span>cấu trúc của thì hiện tại đơn</span></h3>
+                                        <p>Công thức: <span>S + Vo/V(s/es) + O</span></p>
+                                        <p>Lời giải: Chủ ngữ (David) là số ít nên ta thêm động từ chia theo chủ ngữ số ít.</p>
+                                        <p>Nên câu này ta chọn đáp án : A.studies</p>
+                                        <p>B.study: Hiện tại đơn khi chủ ngữ số nhiều</p>
+                                        <p>C.studied: Quá khứ đơn</p>
+                                        <p>D.studying: Hiện tại tiếp diễn</p>
+                                    </div>
+                                    <!--  -->
+                                    <div class="cauhoi">
+                                        <h3><br>1. David <span>___</span>every day after school.</h3>
+                                        <span id="point">+ 1 điểm</span>
+                                    </div>
+
+                                    <!--  -->
+                                    <div class="form-check" id="cau1">
+                                        <input type="radio" name="radio" id="dapanA"> A.studies <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanB"> B.study <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanC"> C.studied <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanD"> D.studying <br>
+                                    </div>
+                                    <!--  -->
+                                    <div class="checkbtn">
+                                        <button id="check" onclick="cau1()">Check</button>
+                                        <button id="showansewr1" onclick="showanswer1()">Xem lời giải</button>
+                                    </div>
+                                    <!--  -->
+                                </div>
+                                <!-- 1 -->
+                                <div class="in-content">
+                                    <!--  -->
+                                    <div id="loigiai2">
+                                        <h3>Loại: <span>cấu trúc của câu điều kiện</span></h3>
+                                        <p>Công thức: <span>If + S + V + Vo , + S + will + Vo ...(thì tương lai đơn)</span></p>
+                                        <p>Lời giải: cấu trúc đang thiếu if nên ta chọn if .</p>
+                                        <p>Nên câu này ta chọn đáp án : A.if</p>
+                                        <p>B.or: or là hoặc, trong trường hợp này or không hợp lệ</p>
+                                        <p>C.in order to: in order to là để, không hợp lệ</p>
+                                        <p>D.so: So là vì vậy, trước so phải có dấy phẩy và trong trường hợp này thì không hợp lệ</p>
+                                    </div>
+                                    <!--  -->
+                                    <div class="cauhoi">
+                                        <h3><br>2. You have to pass the examination <span>___</span>you want to attend the course.</h3>
+                                        <span id="point2">+ 1 điểm</span>
+                                    </div>
+                                    <!--  -->
+                                    <div class="form-check"  id="cau2">
+                                        <input type="radio" name="radio" id="dapanA"> A.if <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanB"> B.or <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanC"> C.in order to <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanD"> D.so <br>
+                                    </div>
+                                    <!--  -->
+                                    <div class="checkbtn">
+                                        <button id="check" onclick="cau2()">Check</button>
+                                        <button id="showansewr2" onclick="showanswer2()">Xem lời giải</button>
+                                    </div>
+                                    <!--  -->
+                                </div>
+                                <!--  -->
+                                <div class="in-content">
+                                    <!--  -->
+                                    <div id="loigiai3">
+                                        <h3>Loại: <span>cấu trúc của sugggested</span></h3>
+                                        <p>Công thức: <span>S + N (V-ing) + O</span></p>
+                                        <p>Lời giải: Sau suggested cộng với N.</p>
+                                        <p>Nên câu này ta chọn đáp án : B.listening</p>
+                                        <p>A.listen: Vo</p>
+                                        <p>C.to listen: to + Vo</p>
+                                        <p>D.listened: Quá khứ đơn</p>
+                                    </div>
+                                    <!--  -->
+                                    <div class="cauhoi">
+                                        <h3><br>3. She suggested <span>___</span>to music..</h3>
+                                        <span id="point3">+ 1 điểm</span>
+                                    </div>
+                                    <!--  -->
+                                    <div class="form-check"  id="cau3">
+                                        <input type="radio" name="radio" id="dapanA"> A.listen <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanB"> B.listening <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanC"> C.to listen<br>
+                                        
+                                        <input type="radio" name="radio" id="dapanD"> D.listened <br>
+                                    </div>
+                                    <!--  -->
+                                    <div class="checkbtn">
+                                        <button id="check" onclick="cau3()">Check</button>
+                                        <button id="showansewr3" onclick="showanswer3()">Xem lời giải</button>
+                                    </div>
+                                    <!--  -->
+                                </div>
+                                <!--  -->
+                                <div class="in-content">
+                                    <!--  -->
+                                    <div id="loigiai4">
+                                        <h3>Loại: <span>cấu trúc của câu điền kiện loại 0</span></h3>
+                                        <p>Công thức: <span>If + S + V + Vo , + S + will + Vo ...</span></p>
+                                        <p>Lời giải: Trước có if ta còn thiếu modal verbs nhưng trong vị trí này if đang ở phủ định nên ta chọn đáp án có not.</p>
+                                        <p>Nên câu này ta chọn đáp án : C.can't</p>
+                                        <p>A.can: Động từ ở dạng khẳng định</p>
+                                        <p>B. could: Động từ ở dạng thì Quá khứ đơn</p>
+                                        <p>D.couldn't: Động từ đang ở dạng phủ định nhưng lại là V2/ed</p>
+                                    </div>
+                                    <!--  -->
+                                    <div class="cauhoi">
+                                        <h3><br>4. If you <span>___</span>do that exercise. I'll explain it to you.</h3>
+                                        <span id="point4">+ 1 điểm</span>
+                                    </div>
+                                    <!--  -->
+                                    <div class="form-check"  id="cau4">
+                                        <input type="radio" name="radio" id="dapanA"> A.can <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanB"> B. could <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanC"> C.can't<br>
+                                        
+                                        <input type="radio" name="radio" id="dapanD"> D.couldn't<br>
+                                    </div>
+                                    <!--  -->
+                                    <div class="checkbtn">
+                                        <button id="check" onclick="cau4()">Check</button>
+                                        <button id="showansewr4" onclick="showanswer4()">Xem lời giải</button>
+                                    </div>
+                                    <!--  -->
+                                </div>
+                                <!--  -->
+                                <div class="in-content">
+                                    <!--  -->
+                                    <div id="loigiai5">
+                                        <h3>Loại: <span>cấu trúc của Câu hỏi đuôi.</span></h3>
+                                        <p>Công thức: <br><span>1:S + V + O,+V + not + S?<br><span>2:S + V+not + O,+V + S? </span> </span></p>
+                                        <p>Lời giải: Ở đây ta có chủ ngữ là Your friends là số nhiều và verb là won't đang ở thể phủ định nên ta chuyển câu hỏi đuôi thành khẳng định.</p>
+                                        <p>Nên câu này ta chọn đáp án : D.will they</p>
+                                        <p>A.do they: Verb ở khẳng định nhưng sai Verb </p>
+                                        <p>B.won't they: Verb ở phủ định</p>
+                                        <p>C.would they:Verb ở phủ định và quá khứ </p>
+                                    </div>
+                                    <!--  -->
+                                    <div class="cauhoi">
+                                        <h3><br>5. Your friends won't be here for long, <span>___</span>?</h3>
+                                        <span id="point5">+ 1 điểm</span>
+                                    </div>
+                                    <!--  -->
+                                    <div class="form-check"  id="cau5">
+                                        <input type="radio" name="radio" id="dapanA"> A.do they <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanB"> B.won't they<br>
+                                        
+                                        <input type="radio" name="radio" id="dapanC"> C.would they <br>
+                                        
+                                        <input type="radio" name="radio" id="dapanD"> D.will they <br>
+                                    </div>
+                                    <!--  -->
+                                    <div class="checkbtn">
+                                        <button id="check" onclick="cau5()">Check</button>
+                                        <button id="showansewr5" onclick="showanswer5()">Xem lời giải</button>
+                                    </div>
+                                    <!--  -->
+                                </div>
+                            </div>
+                        <!--  -->
+                    </div>
+                <!--  -->
+            </div>
+            <!-- The end right -->
+        </div>
+        <!--  -->
+    </div>
+    <!-- THE END CONTAINER=========================================================================== -->
+
+
+
+    <script src="../script/lop9.js"></script>
+</body>
+</html>

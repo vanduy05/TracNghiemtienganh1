@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <header>
+        <div class="line-header">
+            <div class="logo-header">
+                <a href="">
+                        <img class="img-logo" src="../image/logo.png" alt="">
+                        <h2 class="name-logo">Language Test</h2>
+                </a>
+            </div>
+            <!-- logo -->
+        </div>
+    </header>
+    <!-- THE END HEADER============================================================================== -->
+    <div class="content">
+        <div class="outline-content">
+            <div onsubmit="signup()" class="signgup" id="formsingupall">
+                    <div class="name-title">
+                        <h2>Student - Sign up to your account</h2>
+                    </div>
+                    <form  class="form-signup" id="formsignup">
+                    <div class="ten">
+                        <span>Tên đăng kí</span><br><input id="username" type="text" placeholder="Username">
+                    </div>
+                    <div class="matkhau">
+                        <span>Mật khẩu </span><br><input id="password" type="password" placeholder="Password">
+                    </div>
+                    <div class="email">
+                        <span>Email</span><br><input id="email" type="email" placeholder="Email">
+                    </div>
+                    <div class="back-login" ><a href="../index/login.html">Đăng nhập</a></div>
+                    <div class="btn-signup">
+                        <button id="signup" onclick="return checksignup()" >Đăng Ký</button>
+                    </div>
+                </form>
+            </div>
+            <!--  -->
+        </div>
+    </div>
+
+    <script src="../script/main.js"></script>
+    <script src="../script/account.js"></script>
+</body>
+</html>

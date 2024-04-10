@@ -1,0 +1,579 @@
+body{
+    padding: 0;
+    margin: 0;
+ 
+}
+header{
+    border-bottom: 1px solid rgb(206, 198, 198) ;
+    
+}
+header .line-header{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .line-header .logo-header a{
+    display: inline-flex;
+    align-items: center;    
+    width: 270px;
+    gap: 16px;
+    text-decoration: none;
+}
+header .line-header .logo-header a .img-logo{
+    width: 18%;
+}
+header .line-header .logo-header a  img{
+
+    width: 10%;
+}
+header .line-header .logo-header a .name-logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 2px lightseagreen;
+    font-weight:bold !important;
+}
+
+header .line-header .account-header{
+    
+    display: flex;
+    gap: 30px;
+    height: 40px;
+    justify-content: space-between;
+    border-left: 2px solid rgb(206, 198, 198) !important;
+    align-items: center;
+    padding-left: 20px;
+}
+/* header .line-header .account-header .account-user{
+
+} */
+
+/* THE END HEADER==================================================================================== */
+
+/* container  */
+.container{
+    background-color: #f9f9fb;
+    
+}
+.container .in-container {
+    display: flex;  
+}
+/*  */
+
+.left-in-container{
+
+    background-color: #ffffff;
+    width: 250px;
+
+
+}
+.left-in-container .main-account{
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.left-in-container .main-account a{
+    text-decoration: none;
+}
+.left-in-container .account-user {
+    border: 1px solid black;
+    width: 40%;
+    height: 76px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: #f5eeee;
+}
+.left-in-container .account-user img{
+    width: 70%;
+    border: 1px solid black;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+.left-in-container .main-account a .name-account h3{
+    color: black;
+    font-weight: bold ;
+}
+
+/* menu-left-container */
+.menu-left-container {
+    width: 90%;
+    margin: auto;
+}
+.menu-left-container .classes-left-container{
+    border: 1px solid #e6e6eb;
+    align-items: center;
+    justify-content: center;
+    height: 40px;   
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-left-container .classes-left-container:hover{
+    background-color: #e6e6eb ;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-left-container .classes-left-container a{
+    display: flex;
+    align-items: center;    
+    gap: 10px;
+    margin-top: 9px;
+    margin-left: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color:  rgb(75, 73, 73)
+}
+.menu-left-container .classes-left-container a:hover{
+    font-size: 22px;
+    transition: all 0.5s ease-in-out;
+}
+/*  */
+.menu-left-container .assignment-left{
+    border: 1px solid #e6e6eb;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-left-container .assignment-left:hover{
+    background-color: #e6e6eb ;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-left-container .assignment-left a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 8px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color:  rgb(75, 73, 73)
+}
+.menu-left-container .assignment-left a:hover{
+    font-size: 22px;
+    transition: all 0.5s ease-in-out;
+}
+/*  */
+.menu-left-container .thongbao-left{
+    border: 1px solid #e6e6eb;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-left-container .thongbao-left:hover{
+    background-color: #e6e6eb ;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-left-container .thongbao-left a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 8px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color:  rgb(75, 73, 73)
+}
+.menu-left-container .thongbao-left a:hover{
+    font-size: 22px;
+    transition: all 0.5s ease-in-out;
+}
+/*  */
+.menu-left-container .notices-left{
+    border: 1px solid #e6e6eb;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-left-container .notices-left:hover{
+    background-color: #e6e6eb ;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-left-container .notices-left a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 9px;
+    margin-left: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color:  rgb(75, 73, 73)
+}
+.menu-left-container .notices-left a:hover{
+    font-size: 22px;
+    transition: all 0.5s ease-in-out;
+}
+/*  */
+.menu-left-container .my-profile{
+    border: 1px solid #e6e6eb;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.menu-left-container .my-profile:hover{
+    background-color: #e6e6eb ;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-left-container .my-profile a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 8px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color:  rgb(75, 73, 73)
+}
+.menu-left-container .my-profile a:hover{
+    font-size: 22px;
+    transition: all 0.5s ease-in-out;
+}
+/*  */
+.menu-left-container .log-out{
+    border: 1px solid #e6e6eb;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.menu-left-container .log-out:hover{
+    background-color: #e6e6eb ;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-left-container .log-out a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 9px;
+    margin-left: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color:  rgb(75, 73, 73)
+    
+    
+}
+.menu-left-container .log-out a:hover{
+    font-size: 22px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-left-container .log-out a .up-log-out{
+    border: 1px solid black;
+    height: 24px;
+    border-radius: 50%;
+}
+
+/*  */
+/* right-in-container */
+.right-in-container{
+    width: 1100px;
+
+}
+.right-in-container .content{
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.right-in-container .content .all-content{
+    width: 80%;
+    margin: auto;
+
+    margin-top: 30px;
+    
+}
+.right-in-container .content .all-content .in-content{
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #ffffff;
+    outline: none;
+    box-shadow: 2px 2px 8px 6px rgb(226, 225, 225);
+    
+}
+.right-in-container .content .all-content .in-content .cauhoi{
+    display: flex;
+}
+.form-check{
+    line-height: 40px;
+}
+.form-check input{
+    cursor: pointer;
+}
+.checkbtn {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 160px;
+    float: right;
+}
+.checkbtn button{
+    cursor: pointer;
+    width: 85px;
+    height: 40px;
+    color: #ffffff;
+    font-weight: bolder;
+    border-radius: 6px;
+    background-color: #22bab3;
+    border: 1px solid #22bab3;
+    box-shadow: 0px 0px 8px 4px rgb(226, 225, 225);
+}
+.checkbtn button:hover{
+    background-color: #57cbf5;
+}
+.accept-logout{
+    background-color: #ffffff;
+    position: fixed;
+    z-index:3;
+    border: 1px solid rgb(206, 198, 198);
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 120px;
+    margin-left: 480px;
+    height:160px;
+    text-align: center;
+    
+
+}
+.table-logout{
+    width: 400px;
+    height: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.table-logout span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-accept{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.btn-accept button{
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* 1 */
+#showansewr1{
+    position: absolute;
+    margin-left: 120px;
+    margin-bottom: 170px;
+
+}
+/* 2 */
+#showansewr2{
+    position: absolute;
+    margin-left: 120px;
+    margin-bottom: 170px;
+}
+/* 3 */
+#showansewr3{
+    position: absolute;
+    margin-left: 120px;
+    margin-bottom: 170px;
+}
+
+/* 4 */
+
+#showansewr4{
+    position: absolute;
+    margin-left: 120px;
+    margin-bottom: 170px;
+}
+
+/* 5 */
+
+#showansewr5{
+    position: absolute;
+    margin-left: 120px;
+    margin-bottom: 170px;
+}
+
+
+/* lời giải */
+#loigiai1{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    border:1px solid rgb(206, 198, 198);
+    box-shadow: 0px -4px 10px grey;
+    border-radius: 6px;
+    width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 100px;
+    
+}
+#loigiai2{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    border:1px solid rgb(206, 198, 198);
+    box-shadow: 0px -4px 10px grey;
+    border-radius: 6px;
+    width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 100px;
+    
+}
+#loigiai3{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    border:1px solid rgb(206, 198, 198);
+    box-shadow: 0px -4px 10px grey;
+    border-radius: 6px;
+    width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 100px;
+    
+}
+#loigiai4{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    border:1px solid rgb(206, 198, 198);
+    box-shadow: 0px -4px 10px grey;
+    border-radius: 6px;
+    width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 100px;
+    
+}
+#loigiai5{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    border:1px solid rgb(206, 198, 198);
+    box-shadow: 0px -4px 10px grey;
+    border-radius: 6px;
+    width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 100px;
+    
+}
+/* point1 */
+.right-in-container .content .all-content .in-content .cauhoi #point{
+    position: absolute;
+    border: 1px solid #57cbf5;
+    border-radius: 4px;
+    background-color: yellow;
+    color: rgb(0, 0, 255);
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 600px;
+}
+
+/* point2 */
+.right-in-container .content .all-content .in-content .cauhoi #point2{
+    position: absolute;
+    border: 1px solid #57cbf5;
+    border-radius: 4px;
+    background-color: yellow;
+    color: rgb(0, 0, 255);
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 600px;
+}
+
+/* point3 */
+.right-in-container .content .all-content .in-content .cauhoi #point3{
+    position: absolute;
+    border: 1px solid #57cbf5;
+    border-radius: 4px;
+    background-color: yellow;
+    color: rgb(0, 0, 255);
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 600px;
+}
+
+/* point4 */
+.right-in-container .content .all-content .in-content .cauhoi #point4{
+    position: absolute;
+    border: 1px solid #57cbf5;
+    border-radius: 4px;
+    background-color: yellow;
+    color: rgb(0, 0, 255);
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 600px;
+}
+
+/* point5 */
+.right-in-container .content .all-content .in-content .cauhoi #point5{
+    position: absolute;
+    border: 1px solid #57cbf5;
+    border-radius: 4px;
+    background-color: yellow;
+    color: rgb(0, 0, 255);
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 600px;
+}
