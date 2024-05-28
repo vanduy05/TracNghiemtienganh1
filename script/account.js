@@ -17,11 +17,14 @@ function signup(){
 
 function login(){
     event.preventDefault();
+    
+
     var username = document.getElementById("username").value; // Lấy giá trị tên đăng nhập từ trường nhập liệu
     var password = document.getElementById("password").value; // Lấy giá trị mật khẩu từ trường nhập liệu
     var email = document.getElementById("email").value; // Lấy giá trị email từ trường nhập liệu
     var user = localStorage.getItem(username);
     var data = JSON.parse(user);
+    // 
     if(user==null)
     {
         alert("Vui lòng nhập tên đăng nhập và mật khẩu");
@@ -29,7 +32,9 @@ function login(){
     else if(username == data.username && email == data.email && password == data.password)
     {
         alert("Đăng nhập thành công");
+        
         window.location.href = "main.html";
+        
     }
     else{
         alert("Tài khoản không tồn tại")
@@ -37,8 +42,6 @@ function login(){
     }
 }
 function checksignup(){
-
-
 
     var ten=document.getElementById('username');
     if(ten.value==""){
@@ -60,8 +63,10 @@ function checksignup(){
     }
 
     return true;
-
     
  }
+
+    
+
 
 

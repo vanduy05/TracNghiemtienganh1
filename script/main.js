@@ -1,3 +1,12 @@
+var checkbox_toggle=document.getElementById('ligh-dark');
+checkbox_toggle.addEventListener('change',function(){
+    
+    document.body.classList.toggle('dark');
+});
+
+
+
+
 
 document.getElementById("show").style.display = "none";
 
@@ -19,38 +28,21 @@ document.getElementById("showlogout").style.display = "none";
 function logout(){
 
     var x = document.getElementById("showlogout");
-    if(x.style.display=="block"){
-        x.style.display = "none";
-    }else{
+    if(x.style.display = "none"){
         x.style.display = "block";
-        
     }
-
-    
 }
-
+document.getElementById("showlogout").style.display = "none";
 function huy(){
-    logout();
-    
+    var y = document.getElementById("showlogout");
+    if(y.style.display=="block"){
+        y.style.display = "none";
+    } 
 }
 function co(){
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 }
 
-
-   
-
-document.getElementById("formlogin").addEventListener("button", function(event) {
-    event.preventDefault();
-
-    var username = document.getElementById("ten").value; // Lấy giá trị tên đăng nhập từ trường nhập liệu
-    
-    // Chuyển hướng sang trang account và truyền tên đăng nhập bằng cách thêm vào URL
-    window.location.href = "main.html?ten=" + encodeURIComponent(username);
-});
-var urlParams = new URLSearchParams(window.location.search);
-var username = urlParams.get('ten');
-document.getElementById("username").textContent = username; 
 
  function checkform(){
 
@@ -74,10 +66,7 @@ document.getElementById("username").textContent = username;
         email.focus();
         return false;   
     }
-
-    return true;
-
-    
+return true;    
  }
 
 

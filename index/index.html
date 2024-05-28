@@ -28,25 +28,38 @@
                 </div>
                 <form onsubmit="login()" class="form-login"  id="formlogin">
                     <div class="ten">
-                        <span>Tên đăng nhập</span><br><input id="username" type="text" placeholder="Username">
+                        <span>Tên đăng nhập</span><br><input id="username" name="username" type="text" autocomplete="additional-name" placeholder="Username">
                     </div>
                     <div class="matkhau">
-                        <span>Mật khẩu đăng nhập</span><br><input id="password" type="password" placeholder="Password">
-                        
+                        <span>Mật khẩu đăng nhập</span><br><input id="password" type="password" autocomplete="current-password" placeholder="Password">
                         
                     </div>
                     <div class="email">
-                        <span>Nhập Email</span><br><input id="email" type="email" placeholder="Email">
+                        <span>Nhập Email</span><br><input id="email" type="email" autocomplete="email" placeholder="Email">
                     </div>
                     <div class="back-signup" ><a href="../index/signup.html">Đăng ký</a></div>
                     <div class="btn-login"   >
-                        <button onclick="return checkform()" id="checkform">Đăng Nhập</button>
+                        <button onclick="return checkform()" type="submit" id="checkform">Đăng Nhập</button>
                     </div>
                 </form>
             </div>
+            
         </div>
     </div>
 
+    <script>
+        function checkform() {
+            // Lấy giá trị từ trường nhập username
+            var username = document.getElementById('username').value;
+            console.log(username);
+        
+            // Chuyển hướng đến trang 2 và truyền giá trị username qua URL
+            window.location.href = 'main.html?username=' + encodeURIComponent(username);
+            
+            // Trả về false để ngăn form được gửi đi, vì chúng ta đã thay đổi trang bằng JavaScript
+            return false;
+        }
+    </script>
     <script src="../script/main.js"></script>
     <script src="../script/account.js"></script>
 </body>

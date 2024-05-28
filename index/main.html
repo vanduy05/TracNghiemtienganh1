@@ -23,9 +23,9 @@
                     </a>
                 </div>
                 <div class="account-inf">
-                    <a href="">
-                    <img src="../image/thongbao.svg" alt="">
-                    </a>
+                    <div class="btn">
+                        <input type="checkbox" name="" class="switch-toggle" id="ligh-dark">
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,8 +57,8 @@
                             <img src="../image/account.svg" alt="">
                         </div>
                         <!--  -->
-                        <div class="name-account" id="username">
-                            <h3 >User</h3>
+                        <div class="name-account" >
+                            <h3 id="result">User</h3>
                         </div>
                     </a>
                 </div>
@@ -78,7 +78,8 @@
                         </div>
                         <!--  -->
                         <div class="assignment-left">
-                            <a href="">
+                           
+                            <a href="#" >
                                 <div class="up-assignment-left">
                                     <img src="../image/assigment.svg" alt="">
                                 </div>
@@ -153,7 +154,8 @@
                                 <!--  -->
                                 <div class="in-all-classes">
                                     <div class="classes">
-                                        <a href="">
+                                        <a href="../index/main.html
+                                        ">
                                         <div class="img-classes">
                                             <img src="../image/logo.png" alt="" >
                                         </div>
@@ -185,7 +187,7 @@
                                                     </div>
                                                     <!-- 1 -->
                                                     <div class="div1" id="div1-2">
-                                                        <a href="">
+                                                        <a href="../index/lop10.html">
                                                             <!--  -->
                                                             <div class="img">
                                                                 <div class="in-img">
@@ -202,7 +204,7 @@
                                                     </div>
                                                     <!--  2-->
                                                     <div class="div1" id="div1-3">
-                                                        <a href="">
+                                                        <a href="../index/lop11.html">
                                                             <!--  -->
                                                             <div class="img">
                                                                 <div class="in-img">
@@ -219,7 +221,7 @@
                                                     </div>
                                                     <!-- 3 -->
                                                     <div class="div1" id="div1-4">
-                                                        <a href="">
+                                                        <a href="../index/lop12.html">
                                                             <!--  -->
                                                             <div class="img">
                                                                 <div class="in-img">
@@ -271,6 +273,32 @@
 
 
 
+    <!-- <script>
+       // window.onload = function () {
+            // Lấy giá trị username từ query string trong URL
+           // var urlParams = new URLSearchParams(window.location.search);
+            //var username = urlParams.get('username');                                                                                                             
+            // Hiển thị giá trị username trong thẻ div
+            //document.getElementById('result').innerText = 'username:' + username;
+        //}
+
+        window.onload = function () {
+            // Lấy giá trị username từ query string trong URL
+            var urlParams = new URLSearchParams(window.location.search);
+            var username = urlParams.get('username');
+            
+            // Kiểm tra nếu username không tồn tại hoặc rỗng
+            if (username) {
+                // Hiển thị giá trị username trong thẻ div
+                document.getElementById('result').innerText = 'Username: ' + username;
+            } else {
+                // Hiển thị thông báo hoặc xử lý tương ứng khi không có username được truyền
+                document.getElementById('result').innerText = 'Không có username được truyền.';
+            }
+        }
+    </script> -->
+
     <script src="../script/main.js"></script>
+    <script src="../script/account.js"></script>
 </body>
 </html>

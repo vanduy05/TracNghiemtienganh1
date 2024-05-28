@@ -1,8 +1,8 @@
-document.getElementById("showlogout").style.display = "none";
+document.getElementById("show").style.display = "none";
 
-function logout(){
+function show(){
 
-    var x = document.getElementById("showlogout");
+    var x = document.getElementById("show");
     if(x.style.display=="block"){
         x.style.display = "none";
     }else{
@@ -13,32 +13,26 @@ function logout(){
     
 }
 
+document.getElementById("showlogout").style.display = "none";
+
+function logout(){
+
+    var x = document.getElementById("showlogout");
+    if(x.style.display=="none"){
+        x.style.display = "block";
+    }
+}
+document.getElementById("showlogout").style.display = "none";
 function huy(){
-    logout();
-    
+    var y = document.getElementById("showlogout");
+    if(y.style.display=="block"){
+        y.style.display = "none";
+    }   
 }
 function co(){
     window.location.href = "login.html";
 }
 
-// document.getElementById("show").style.display = "none";
-// document.getElementById("showanswer").style.display = "block";
-
-// function show(){
-
-//     var x = document.getElementById("show");
-//     var y = document.getElementById("showanswer");
-//     if(x.style.display=="block"){
-//         x.style.display = "none";
-//         y.style.display = "block";
-//     }else{
-//         x.style.display = "block";
-//         y.style.display = "none";
-        
-//     }
-
-    
-// }
 
 
 document.getElementById("reading").style.display = "none";

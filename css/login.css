@@ -44,6 +44,7 @@ header .line-header .logo-header a .name-logo{
 .content{
     background-color: rgb(236, 233, 233);
     padding: 10px;
+    font-family: JetBrains Mono,Consolas, 'Courier New', monospace;
 }
 .outline-content{
     width: 80%;
